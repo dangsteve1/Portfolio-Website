@@ -1,0 +1,52 @@
+body, html{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0px;
+	padding:10px;
+	height: 100%;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-color:coral;
+	color:#fff;
+}
+
+#navbar{
+	overflow: hidden;
+	background-color:#333;
+	color:#fff;
+	padding:14px;
+	height:10%;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:25px;
+}
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align:center;
+	margin-top:40px;
+	padding:0;
+	height:10%;
+}
